@@ -26,7 +26,7 @@ The code used to process the data from this study is included here in this repos
 
 For example, in the star.R file, the argument of the first line "trimmed" is a folder that contains trimmed fastq files (made by trimmomatic), and it is 259GB. There are other file names and file paths throughout the code provided here, and if they lead to nowhere within this repository, it is likely due to their size and they have been purposfully omitted. 
 
-The parameters used by these softwares can of course be written by hand, but depending on the number of files that need processing, this can become quite tedious. The three .R files, trim.R, star.R, and fc.R are used to generate the parameters for their respective softwares. The code was writted to be malleable and can be changed as needed. 
+The parameters used by these softwares can of course be written by hand, but depending on the number of files that need processing, this can become quite tedious. The three .R files, trim.R, star.R, and fc.R are used to generate the parameters for their respective softwares. The code was written to be malleable and can be changed as needed. 
 
 Note: Be sure to change file paths in the parameters! These are usually named file_loc and file_dest, but depending on where you have trimmomatic on your computer, you may need to change that one, too. 
 

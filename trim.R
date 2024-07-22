@@ -42,6 +42,6 @@ for (i in 1:nrow(d)) {
 }
 
 #write file
-fileConn <- file("maybe.zsh")
+fileConn <- file("all_trim.zsh")
 writeLines(m, fileConn)
 close(fileConn)
